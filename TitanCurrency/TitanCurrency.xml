@@ -1,0 +1,14 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Script file="TitanCurrency.lua"/>
+    <Button name="TitanPanelCurrencyButton" inherits="TitanPanelComboTemplate" parent="UIParent">
+        <Scripts>
+            <OnLoad>TitanPanelCurrencyButton_OnLoad(self); TitanPanelButton_OnLoad(self);</OnLoad>
+            <OnShow>TitanPanelButton_OnShow(self); TitanCurrency_LayoutDragTargets();</OnShow>
+            <OnEvent>TitanCurrency_OnEvent(self, event, ...);</OnEvent>
+            <OnClick>TitanCurrency_OnClick(self, button);</OnClick>
+            <OnEnter>TitanPanelButton_OnEnter(self);</OnEnter>
+            <OnLeave>TitanPanelButton_OnLeave(self);</OnLeave>
+            <OnHide>TitanCurrency_HideDragIcon(); self.dragCurrency = nil;</OnHide>
+        </Scripts>
+    </Button>
+</Ui>

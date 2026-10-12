@@ -1,0 +1,16 @@
+## Interface: 30300
+## Title: Matcha's TitanCurrency fork for Everfresh
+## Author: Greenhorns@Vek'Nilash
+## Version: 0.8.1
+## SavedVariables: TitanCurrencyAccountDB
+## SavedVariablesPerCharacter: TitanCurrencyDB
+## Notes: Currency icons and selection options. Gold tracking moved to TitanGoldTracker.
+## X-Legacy-Gold-Data: TitanCurrencyAccountDB retained only for migration.
+## X-Original-Notes: This mod will display all the Currency you have on the curent toon in a tool tip.  It shows the curent Toons Gold amount on the Titan Panel bar.
+## RequiredDeps: Titan
+## DefaultState: Enabled
+## LoadOnDemand: 0
+locale\locale-enUS.lua
+TitanCurrency.xml
+
+
